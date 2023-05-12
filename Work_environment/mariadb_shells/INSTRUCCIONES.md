@@ -12,7 +12,7 @@
 10. Encontrar el archivo [3_modificar_configuracion.sh], darle permisos de ejecucion: "chmod +x 3_modificar_configuracion.sh"
 11. Ejecutar usando "sudo ./3_modificar_configuracion.sh"
 12. Encontrar el archivo [4_crear_regla_vpc.sh]
-13. Dar permisos de ejecucion = "chmod +x 4_crear_regla_vpc.sh]
+13. Dar permisos de ejecucion = "chmod +x 4_crear_regla_vpc.sh"
 14. Ejecutar usando "sudo ./4_crear_regla_vpc.sh"
 15. Reiniciar instancia usando sudo reboot
 16. Volverse a conectar, el servidor de base de datos ya aceptara conexiones remotas y se podra usar con sqoop.
