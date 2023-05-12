@@ -5,7 +5,7 @@
 4. Ejecutar usando "sudo ./1_instalar_mariadb_easy.sh"
 5. Seguir instrucciones, para 'root' password dar enter (dado que es la primera vez) y despues settear uno nuevo, en este caso 'Example123', todo lo demas 'YES' o 'y'
 6. Probar que el servicio este funcionando= "sudo systemctl status mariadb"
-7. Encontrar el archivo [2_crear_usuario.sh] y darle permisos de ejecucion= "chmod +x crear_usuario.sh"
+7. Encontrar el archivo [2_crear_usuario.sh] y darle permisos de ejecucion= "chmod +x 2_crear_usuario.sh"
 8. Ejecutar usando "sudo ./2_crear_usuario.sh"
 8. Probar la conexion, "mysql -u big_data_user -p"
 9. Salir de la base de datos con "quit" 
